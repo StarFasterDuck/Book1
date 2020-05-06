@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: #32325f;
+}
+.container {
+    max-width: 1140px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.logo {
+    color: #95989a;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.social a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.hero {
+    padding-top: 70px;
+    padding-bottom: 190px;
+    background-color: #f4f5f7;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-text {
+    width: 50%;
+    margin-top: 160px;
+}
+.main-image {
+    margin-top: 190px;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 14px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 25px;
+}
+.description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.price-tag {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.price {
+    display: block;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 49px;
+}
+.button {
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    border-radius: 6px;
+    padding: 20px 30px;
+    color: white;
+    background-color: gray;
+
+}
+.btn-succes {
+    background-color: #2dce89;
+    margin-right: 30px;
+}
+.btn-excerpt {
+    background-color: #5e72e4;
+}
+/* оформление секции */
+.section {
+    /* Внутрение отступы */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 13px;
+}
+.section-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+.wrap {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.block {
+    width: 23%;
+    margin-right: 2%;
+
+}
+.block-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 0;
+    line-height: 1,4;
+}
+.people-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 63px;
+}
+.img-people {
+    margin-bottom: 36px;
+}
+.footer {
+    background-color: #32325f;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-block {
+    width: 33%;
+
+}
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
